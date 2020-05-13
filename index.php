@@ -6,8 +6,8 @@
       <div class="container">
         <div class="row align-items-center justify-content-between py-5 py-md-10">
           <div class="col-12 col-lg-6 text-center text-lg-left">
-            <h1 class="display-3">Go Premium. Be happy. <b><?=SUB_LENGTH?> Upgrades.</b></h1>
-                <a href="pricing.php" <button class="btn btn-white" type="button">Purchase</button></a>
+            <h1 class="display-3">Nâng Cấp Tài Khoản Premium Spotify. <b><?=SUB_LENGTH?> Sử Dụng.</b></h1>
+                <a href="pricing.php" <button class="btn btn-white" type="button">Mua Ngay</button></a>
           </div>
           <div class="col-12 col-lg-6" data-aos="zoom-in" data-aos-delay="500">
             <img src="assets/images/demo/app/app-1.svg" alt="Image">
@@ -23,27 +23,27 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-10 col-lg-8">
-            <h2>Fast, Simple made with <b>you</b>  in mind.</h2>
+            <h2><b>Nâng Cấp Cực Nhanh Và Đơn Giản<b></h2>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <div class="owl-carousel visible" data-items="[3,2,2]" data-margin="20">
               <div class="step step-highlight">
-                <h4 class="step-title">Purchase</h4>
-                <p>Simply purchase a key through our autobuy system using Paypal & Crypto</p>
+                <h4 class="step-title">Mua Key</h4>
+                <p>Mua Key Nâng Cấp Thông Qua Hệ Thống Của Chúng Tôi</p>
               </div>
               <div class="step">
                 <h4 class="step-title">Upgrade</h4>
-                <p>Use your key to upgrade with our simple automated upgrader.</p>
+                <p>Sử Dụng Key Ở Phần Nâng Cấp.</p>
               </div>
               <div class="step">
-                <h4 class="step-title">Accept Invite</h4>
-                <p>Accept the spotify invite we provide you with!</p>
+                <h4 class="step-title">Click Vào Link Invite</h4>
+                <p>Xác Nhận Tài Khoản Và Điền Địa Chỉ Chúng Tôi Cung Cấp</p>
               </div>
               <div class="step">
-                <h4 class="step-title">Finished</h4>
-                <p>That's all follow spotify's instructions and enjoy Premium.</p>
+                <h4 class="step-title">Hoàn Thành</h4>
+                <p>Thưởng Thức Nhạc Chất Lượng Cao Với Tài Khoản Premium Của Bạn</p>
               </div>
             </div>
           </div>
@@ -70,32 +70,32 @@
               <div class="col-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <i class="icon-activity fs-30 mb-2 text-purple">
                 </i>
-                <span class="eyebrow">Instant Upgrades</span>
+                <span class="eyebrow">Nâng Cấp Nhanh Chóng</span>
               </div>
               <div class="col-4" data-aos="fade-up">
                 <i class="icon-airplay fs-30 mb-2 text-purple">
                 </i>
-                <span class="eyebrow">Mobile Friendly</span>
+                <span class="eyebrow">Giao Diện Thân Thiện Với Cả Di Động</span>
               </div>
               <div class="col-4" data-aos="fade-up">
                 <i class="icon-command fs-30 mb-2 text-purple">
                 </i>
-                <span class="eyebrow">Replacements</span>
+                <span class="eyebrow">Hệ Thống Đổi Trả Key Khi Cần Thiết</span>
               </div>
               <div class="col-4" data-aos="fade-up">
                 <i class="icon-headphones2 fs-30 mb-2 text-purple">
                 </i>
-                <span class="eyebrow"><?=SUB_LENGTH?> Spotify</span>
+                <span class="eyebrow"><?=SUB_LENGTH?> Sử Dụng</span>
               </div>
               <div class="col-4" data-aos="fade-up">
                 <i class="icon-life-buoy2 fs-30 mb-2 text-purple">
                 </i>
-                <span class="eyebrow">Friendly Support</span>
+                <span class="eyebrow">Support Thân Thiện</span>
               </div>
               <div class="col-4" data-aos="fade-up">
                 <i class="icon-map-pin2 fs-40 mb-1 text-purple">
                 </i>
-                <span class="eyebrow">50+ Countries</span>
+                <span class="eyebrow">Hỗ Trợ Đa Quốc Gia</span>
               </div>
             </div>
           </div>
@@ -112,9 +112,9 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-4 pr-md-4 text-center text-md-left">
-            <h2 class="h1"><b>Pricing</b> plans</h2>
-            <p>Perfect for Resellers and for the average Joe.</p>
-            <a href="pricing.php" class="btn btn-primary mt-1">View More</a>
+            <h2 class="h1"><b>Bảng Giá</b></h2>
+            <p>Hỗ Trợ Cho Reseller</p>
+            <a href="pricing.php" class="btn btn-primary mt-1">Xem Thêm</a>
           </div>
           <div class="col-md-8">
             <div class="row gutter-2">

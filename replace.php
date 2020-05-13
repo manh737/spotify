@@ -8,7 +8,7 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-md-12 col-lg-12">
-          <h1 class="mb-0">Replace <b>your</b> Spotify account.</h1>
+          <h1 class="mb-0"><b>Bảo Hành</b></h1>
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>Enter your key, select your country click upgrade!</h2>
+        <h2>Nhập Key Bạn Từng Sử Dụng Cho Tài Khoản Trước Đây - Ấn Bảo Hành</h2>
       </div>
     </div>
     <div class="row">
@@ -31,7 +31,7 @@
               <input class="form-control form-control-lg" name="k" id="replacekey" placeholder="Your Key">
             </div>
             <div class="form-group col-md-4 col-lg-2">
-              <button id="replaceButton" type="submit" class="btn btn-block btn-lg btn-white">Upgrade</button>
+              <button id="replaceButton" type="submit" class="btn btn-block btn-lg btn-white">Bảo Hành</button>
             </div>
           </div>
         </form>

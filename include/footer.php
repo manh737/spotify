@@ -7,13 +7,13 @@
             <div class="col-md-5 text-center text-md-left">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="discord.php">Discord</a>
+                  <a class="nav-link" href="discord.php">Facebook</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="upgrade.php">Upgrade</a>
+                  <a class="nav-link" href="upgrade.php">Nâng Cấp</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.php">Purchase</a>
+                  <a class="nav-link" href="pricing.php">Mua Key</a>
                 </li>
               </ul>
             </div>
@@ -29,12 +29,12 @@
     </footer>
     <!-- / footer -->
 
-
+	<script src="js/jquery.min.js"></script>
     <script src="assets/js/vendor.js"></script>
+	
         <script src="assets/js/upgrade.js"></script>
         <script src="assets/js/info.js"></script>
         <script src="assets/js/replace.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="https://shoppy.gg/api/embed.js"></script>
   </body>
 </html>

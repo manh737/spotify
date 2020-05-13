@@ -24,22 +24,22 @@
             <ul class="navbar-nav align-items-center mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.php" role="button">
-                  Home
+                  Trang Chủ
                 </a>
               </li>
                   <li class="nav-item">
                 <a class="nav-link" href="pricing.php" role="button">
-                  Pricing
+                  Bảng Giá
                 </a>
               </li>
                 <li class="nav-item">
                 <a class="nav-link" href="upgrade.php" role="button">
-                  Upgrade
+                  Nâng Cấp
                 </a>
               </li>
                    <li class="nav-item">
                 <a class="nav-link" href="replace.php" role="button">
-                  Replace
+                  Bảo Hành
                 </a>
               </li>
                 <li class="nav-item">
@@ -49,17 +49,17 @@
               </li>
                <li class="nav-item">
                 <a class="nav-link" href="info.php" role="button">
-                  Info
+                  Kiểm Tra Info
                 </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Contact
+                  Liên Hệ
                 </a>
                 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="discord.php">
-                    <span>Discord</span>
+                    <span>Facebook</span>
                   </a>
                   <div class="dropdown-divider"></div>
                 </div>

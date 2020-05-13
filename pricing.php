@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 text-center">
-            <h1>Pricing <b>For Everyone!</b></h1>
+            <h1><b>Bảng Giá</b></h1>
           </div>
         </div>
       </div>    
@@ -20,8 +20,8 @@
         <div class="row text-white">
           <div class="col text-center">
             <div class="nav nav-switch nav-lavalamp">
-              <a class="nav-item nav-link active show" data-toggle="tab" href="#component-1-1">Individuals</a>
-              <a class="nav-item nav-link" data-toggle="tab" href="#component-1-2">Resellers</a>
+              <a class="nav-item nav-link active show" data-toggle="tab" href="#component-1-1">Cá Nhân</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#component-1-2">Bán Buôn</a>
             </div>
           </div>
         </div>

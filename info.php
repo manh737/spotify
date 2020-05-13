@@ -8,7 +8,7 @@
       <center><div class="container text-white">
         <div class="row">
           <div class="col-md-12 col-lg-12">
-            <h1 class="mb-0">Find <b>your</b> upgrade info.</h1>
+            <h1 class="mb-0"><b>Tìm lại thông tin Key bạn đã sử dụng</b></h1>
           </div>
         </div>
       </div> </center>   
@@ -21,7 +21,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>Enter your key, select your country click check!</h2> 
+            <h2>Nhập Key Bạn Đã Từng Sử Dụng</h2> 
           </div>
         </div>
         <div class="row">
@@ -32,7 +32,7 @@
                   <input class="form-control form-control-lg" id="infokey" placeholder="Your Key">
                 </div>
                 <div class="form-group col-md-4 col-lg-2">
-                  <button id="lookupButton" class="btn btn-block btn-lg btn-white">Check</button>
+                  <button id="lookupButton" class="btn btn-block btn-lg btn-white">Kiểm Tra</button>
                 </div>
               </div>
             </form>

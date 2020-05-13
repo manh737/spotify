@@ -8,7 +8,7 @@ include 'include/header.php';
     <div class="container text-white">
       <div class="row">
         <div class="col-md-12 col-lg-12">
-          <h1 class="mb-0">Upgrade <b>your</b> Spotify account.</h1>
+          <h1 class="mb-0"><b>Nâng Cấp Tai Khoản Spotify Của Bạn</b></h1>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@ include 'include/header.php';
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>Enter your key, select your country click upgrade!</h2>
+        <h2>Nhập Key - Chọn Quốc Gia - Ấn Nâng Cấp</h2>
       </div>
     </div>
     <div class="row">
@@ -38,7 +38,7 @@ include 'include/header.php';
               </select>
             </div>
             <div class="form-group col-md-4 col-lg-2">
-              <button id="UpgradeButton" class="btn btn-block btn-lg btn-white">Upgrade</button>
+              <button id="UpgradeButton" class="btn btn-block btn-lg btn-white">Nâng Cấp</button>
             </div>
           </div>
         </form>
