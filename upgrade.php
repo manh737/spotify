@@ -1,61 +1,4 @@
-<?php
-
-$stock = file_get_contents("https://spotisave.com/api/stock");	
-$response = json_decode($stock);	
-$total = 0;	
-$data2 = '';	
-$countries = [
-  ["US", "United States"],
-  ["UK", "Great Britain"],
-  ["DE", "Germany"],
-  ["CA", "Canada"],
-  ["AU", "Australia"],
-  ["IT", "Italy"],
-  ["NZ", "New Zealand"],
-  ["MX", "Mexico"],
-  ["BE", "Belgium"],
-  ["FR", "France"],
-  ["ID", "Indonesia"],
-  ["SG", "Singapore"],
-  ["BR", "Brazil"],
-  ["MY", "Malaysia"],
-  ["PT", "Portugal"],
-  ["DK", "Denmark"],
-  ["NL", "Netherlands"],
-  ["ES", "Spain"],
-  ["SE", "Sweden"],
-  ["NO", "Norway"],
-  ["TR", "Turkey"],
-  ["CR", "Costa Rica"],
-  ["PA", "Panama"],
-  ["IS", "Iceland"],
-  ["AR", "Argentina"],
-  ["AT", "Austria"],
-  ["CZ", "Czech Republic"],
-  ["CH", "Switzerland"],
-  ["FI", "Finland"],
-  ["IE", "Ireland"],
-  ["TH", "Thailand"],
-  ["PH", "Philippines"],
-  ["CL", "Chile"],
-  ["HK", "Hong Kong"],
-  ["JP", "Japan"],
-  ["UY", "Uruguay"],
-  ["TW", "Taiwan"],
-  ["PL", "Poland"],
-  ["HU", "Hungary"],
-  ["BG", "Bulgaria"],
-  ["DO", "Dominican Republic"],
-  ["LU", "Luxembourg"],
-];
-  print_r($response);
-  foreach ($countries as $data) {	
-    $cc = $data[0];	
-    $c = $data[1];	
-    $i = $response[$data[0]];	
-    $total += $i;	
-  $data2 .= "<option value=\"$cc\">$c Remaining: $i</option>";	
-  }
+<?php 
 include 'include/header.php';
 ?>
 
@@ -91,7 +34,6 @@ include 'include/header.php';
             </div>
             <div class="form-group col-md-3 col-lg-4">
               <select class="form-control form-control-lg" id="country" id="type-input">
-                <?= $data2 ?>
               </select>
             </div>
             <div class="form-group col-md-4 col-lg-2">
