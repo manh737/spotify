@@ -29,7 +29,7 @@
             <form>
               <div class="form-row">
                 <div class="form-group col-md-5 col-lg-6">
-                  <input class="form-control form-control-lg" id="key" placeholder="Your Key">
+                  <input class="form-control form-control-lg" id="infokey" placeholder="Your Key">
                 </div>
                 <div class="form-group col-md-4 col-lg-2">
                   <button id="lookupButton" class="btn btn-block btn-lg btn-white">Check</button>
