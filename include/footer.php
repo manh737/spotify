@@ -35,6 +35,5 @@
   <script src="assets/js/info.js"></script>
   <script src="assets/js/replace.js"></script>
   <script src="assets/js/app.js"></script>
-  <script src="https://shoppy.gg/api/embed.js"></script>
   </body>
 </html>
