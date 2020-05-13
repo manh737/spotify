@@ -1,7 +1,7 @@
 <?php
 
 $stock = file_get_contents("https://spotisave.com/api/stock");	
-$response = json_decode($stock, true);	
+$response = json_decode($stock);	
 $total = 0;	
 $data2 = '';	
 $countries = [
