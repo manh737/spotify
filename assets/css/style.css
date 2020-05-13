@@ -21367,3 +21367,6 @@ pre[class*="language-"] {
 .bootstrap-select .dropdown-menu li a.dropdown-item.active span.text{
   color: #4829B2;
 }
+.bootstrap-select.form-control-lg button.dropdown-toggle:focus {
+  outline-color: #fff;
+}
