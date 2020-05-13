@@ -75,8 +75,15 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1em; }
-#country{
+#country.load-country{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
   opacity: 0 !important;
+}
+#country.load-country{
+  opacity: 1 !important;
 }
 p {
   margin-top: 0;

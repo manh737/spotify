@@ -33,7 +33,7 @@ include 'include/header.php';
               <input class="form-control form-control-lg" id="key" placeholder="Your Key">
             </div>
             <div class="form-group col-md-3 col-lg-4">
-              <select class="form-control form-control-lg my-selectpicker" id="country" id="type-input">
+              <select class="form-control form-control-lg my-selectpicker load-country" id="country" id="type-input">
               </select>
             </div>
             <div class="form-group col-md-4 col-lg-2">

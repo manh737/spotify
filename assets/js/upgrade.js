@@ -126,11 +126,13 @@ $(document).ready(function () {
   }
 
   function stockRequest() {
+    countryInput.addClass("load-country");
     countryInput.html("<option>Loading countries...</option>");
     $.ajax({
       method: "GET",
       url: "https://spotisave.com/api/stock",
       success: function (response) {
+        countryInput.removeClass("load-country");
         // What to do if we succeed
         data = JSON.parse(response);
 
