@@ -6,7 +6,7 @@ $("#UpgradeButton").click(function () {
   }, 3000);
 });
 
-$(document).ready(async function () {
+$(document).ready(function () {
   countries = [
     ["US", "United States"],
     ["UK", "Great Britain"],
@@ -57,7 +57,7 @@ $(document).ready(async function () {
   keyInput = $("#key");
   resultText = $("#resultText");
 
-  await stockRequest();
+  stockRequest();
   function upgrade(country, key) {
     resultText.html(
       '<a style="color: white; font-size: 20px; font-weight: bold;">Upgrading with your key, please be patient..</a>'
@@ -125,9 +125,9 @@ $(document).ready(async function () {
     });
   }
 
-  async function stockRequest() {
+  function stockRequest() {
     countryInput.html("<option>Loading countries...</option>");
-    await $.ajax({
+    $.ajax({
       method: "GET",
       url: "https://spotisave.com/api/stock",
       success: function (response) {
