@@ -57,7 +57,7 @@ $(document).ready(function () {
   keyInput = $("#key");
   resultText = $("#resultText");
 
-//   stockRequest();
+  stockRequest();
   function upgrade(country, key) {
     resultText.html(
       '<a style="color: white; font-size: 20px; font-weight: bold;">Upgrading with your key, please be patient..</a>'
