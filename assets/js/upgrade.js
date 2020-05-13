@@ -6,7 +6,7 @@ $("#UpgradeButton").click(function () {
   }, 3000);
 });
 
-$(document).ready(function () {
+$(document).ready(async function () {
   countries = [
     ["US", "United States"],
     ["UK", "Great Britain"],
@@ -57,7 +57,7 @@ $(document).ready(function () {
   keyInput = $("#key");
   resultText = $("#resultText");
 
-  stockRequest();
+  await stockRequest();
   function upgrade(country, key) {
     resultText.html(
       '<a style="color: white; font-size: 20px; font-weight: bold;">Upgrading with your key, please be patient..</a>'
@@ -125,7 +125,7 @@ $(document).ready(function () {
     });
   }
 
-  function stockRequest() {
+  asy function stockRequest() {
     countryInput.html("<option>Loading countries...</option>");
     $.ajax({
       method: "GET",
