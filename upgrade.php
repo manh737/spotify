@@ -48,8 +48,7 @@ $countries = [
   ["DO", "Dominican Republic"],
   ["LU", "Luxembourg"],
 ];
-  print_r($response)
-
+  print_r($response);
   foreach ($countries as $data) {	
     $cc = $data[0];	
     $c = $data[1];	
