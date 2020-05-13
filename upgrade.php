@@ -24,6 +24,7 @@ include 'include/header.php';
     <div class="row">
       <div class="col-md-6">
         <h2>Nhập Key - Chọn Quốc Gia - Ấn Nâng Cấp</h2>
+        <span>lưu ý ko sử dụng Safari</span>
       </div>
     </div>
     <div class="row">
