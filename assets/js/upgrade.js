@@ -7,7 +7,7 @@ $("#UpgradeButton").click(function () {
 });
 
 $(document).ready(function () {
-  countries = [
+  var countries = [
     ["US", "United States"],
     ["UK", "Great Britain"],
     ["DE", "Germany"],
@@ -51,11 +51,11 @@ $(document).ready(function () {
     ["DO", "Dominican Republic"],
     ["LU", "Luxembourg"],
   ];
-  country = $("#country");
-  redeemButton = $("#UpgradeButton");
-  countryInput = $("#country");
-  keyInput = $("#key");
-  resultText = $("#resultText");
+  var country = $("#country");
+  var redeemButton = $("#UpgradeButton");
+  var countryInput = $("#country");
+  var keyInput = $("#key");
+  var resultText = $("#resultText");
 
   stockRequest();
   function upgrade(country, key) {

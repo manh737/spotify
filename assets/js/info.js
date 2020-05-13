@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  keyInput = $("#infokey");
-  lookupButton = $("#lookupButton");
-  resultText = $("#resultText");
+  var keyInput = $("#infokey");
+  var lookupButton = $("#lookupButton");
+  var resultText = $("#resultText");
 
   function redeemRequest(key) {
     $(resultText).text("Checking your key, please be patient.");

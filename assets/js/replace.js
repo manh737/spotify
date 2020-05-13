@@ -7,10 +7,10 @@ $("#replaceButton").click(function () {
 });
 
 $(document).ready(function () {
-  replaceButton = $("#replaceButton");
-  keyInput = $("#replacekey");
-  redeemButton = $("#redeem_replace");
-  resultText = $("#replaceResultText");
+  var replaceButton = $("#replaceButton");
+  var keyInput = $("#replacekey");
+  var redeemButton = $("#redeem_replace");
+  var resultText = $("#replaceResultText");
   function replaceRequest(key) {
     $(resultText).text("Checking your key, please be patient.");
     $.ajax({
