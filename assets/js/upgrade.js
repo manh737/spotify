@@ -125,7 +125,7 @@ $(document).ready(async function () {
     });
   }
 
-  asy function stockRequest() {
+  function stockRequest() {
     countryInput.html("<option>Loading countries...</option>");
     $.ajax({
       method: "GET",
