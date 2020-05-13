@@ -147,7 +147,7 @@ $(document).ready(function () {
               ")</option>"
           );
         });
-        $('.selectpicker').selectpicker();
+        $('.my-selectpicker').selectpicker();
       },
     });
   }
