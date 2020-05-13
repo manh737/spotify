@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1em; }
 #country{
-  opacity: 1 !important;
+  opacity: 0 !important;
 }
 p {
   margin-top: 0;
@@ -21339,3 +21339,23 @@ pre[class*="language-"] {
     right: 1.875rem; }
 
 /*# sourceMappingURL=style.css.map */
+.bootstrap-select.form-control-lg .dropdown-toggle{
+  height: 100%;
+}
+.bootstrap-select.form-control-lg .dropdown-toggle{
+  border-color: transparent;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown.bootstrap-select .dropdown-menu div.inner{
+  height: 250px;
+}
+.bootstrap-select .dropdown-menu li a span.text{
+  color: #333;
+}
+.bootstrap-select .dropdown-menu li a.dropdown-item.active{
+  background-color: #fff;
+}
+.bootstrap-select .dropdown-menu li a.dropdown-item.active span.text{
+  color: #4829B2;
+}
