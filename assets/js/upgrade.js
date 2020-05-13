@@ -131,7 +131,6 @@ $(document).ready(function () {
       method: "GET",
       url: "https://spotisave.com/api/stock",
       success: function (response) {
-        $('.selectpicker').selectpicker();
         // What to do if we succeed
         data = JSON.parse(response);
 
@@ -148,6 +147,7 @@ $(document).ready(function () {
               ")</option>"
           );
         });
+        $('.selectpicker').selectpicker();
       },
     });
   }
