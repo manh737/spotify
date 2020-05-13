@@ -7,6 +7,7 @@
     <title><?=SITENAME?> | <?=ucfirst(pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME))?></title>
     <link rel="stylesheet" href="./assets/css/vendor.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
   </head>
   <body>
 

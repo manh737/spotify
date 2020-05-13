@@ -51,6 +51,7 @@ $(document).ready(function () {
     ["DO", "Dominican Republic"],
     ["LU", "Luxembourg"],
   ];
+  $('.selectpicker').selectpicker();
   var country = $("#country");
   var redeemButton = $("#UpgradeButton");
   var countryInput = $("#country");
