@@ -125,9 +125,9 @@ $(document).ready(async function () {
     });
   }
 
-  function stockRequest() {
+  async function stockRequest() {
     countryInput.html("<option>Loading countries...</option>");
-    $.ajax({
+    await $.ajax({
       method: "GET",
       url: "https://spotisave.com/api/stock",
       success: function (response) {
