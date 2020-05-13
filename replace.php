@@ -27,13 +27,8 @@
       <div class="col">
         <form method="post">
           <div class="form-row">
-            <div class="form-group col-md-5 col-lg-6">
+            <div class="form-group col-md-5 col-lg-10">
               <input class="form-control form-control-lg" name="k" id="replacekey" placeholder="Your Key">
-            </div>
-            <div class="form-group col-md-3 col-lg-4">
-              <select class="form-control form-control-lg" name="c" id="type-input">
-                <?= $data2 ?>
-              </select>
             </div>
             <div class="form-group col-md-4 col-lg-2">
               <button id="replaceButton" type="submit" class="btn btn-block btn-lg btn-white">Upgrade</button>
