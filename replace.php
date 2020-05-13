@@ -27,7 +27,6 @@ include 'include/header.php';
     </div>
     <div class="row">
       <div class="col">
-        <form method="post">
           <div class="form-row">
             <div class="form-group col-md-5 col-lg-10">
               <input class="form-control form-control-lg" name="k" id="replacekey" placeholder="Your Key">
@@ -36,7 +35,6 @@ include 'include/header.php';
               <button id="replaceButton" type="submit" class="btn btn-block btn-lg btn-white">Bảo Hành</button>
             </div>
           </div>
-        </form>
       </div>
     </div>
   </div>

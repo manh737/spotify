@@ -28,7 +28,6 @@ include 'include/header.php';
     </div>
     <div class="row">
       <div class="col">
-        <form method="post">
           <div class="form-row">
             <div class="form-group col-md-5 col-lg-6">
               <input class="form-control form-control-lg" id="key" placeholder="Your Key">
@@ -41,7 +40,6 @@ include 'include/header.php';
               <button id="UpgradeButton" class="btn btn-block btn-lg btn-white">Nâng Cấp</button>
             </div>
           </div>
-        </form>
       </div>
     </div>
   </div>

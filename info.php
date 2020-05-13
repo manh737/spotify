@@ -26,7 +26,6 @@
         </div>
         <div class="row">
           <div class="col">
-            <form>
               <div class="form-row">
                 <div class="form-group col-md-5 col-lg-6">
                   <input class="form-control form-control-lg" id="infokey" placeholder="Your Key">
@@ -35,7 +34,6 @@
                   <button id="lookupButton" class="btn btn-block btn-lg btn-white">Kiểm Tra</button>
                 </div>
               </div>
-            </form>
           </div>
         </div>
       </div>
