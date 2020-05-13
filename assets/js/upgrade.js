@@ -5,6 +5,7 @@ $("#UpgradeButton").click(function () {
     redeem.prop("disabled", false);
   }, 3000);
 });
+
 $(document).ready(function () {
   countries = [
     ["US", "United States"],
