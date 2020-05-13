@@ -57,14 +57,7 @@ $(document).ready(function () {
   keyInput = $("#key");
   resultText = $("#resultText");
 
-    // Select
-    $(async function() {
-    await stockRequest();
-        $('select').selectric({
-            disableOnMobile: false,
-            nativeOnMobile: false
-        });
-    });
+  stockRequest();
   function upgrade(country, key) {
     resultText.html(
       '<a style="color: white; font-size: 20px; font-weight: bold;">Upgrading with your key, please be patient..</a>'

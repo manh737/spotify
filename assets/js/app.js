@@ -279,6 +279,13 @@
 
 
 
+      // // Select
+      // $(function() {
+      //   $('select').selectric({
+      //     disableOnMobile: false,
+      //     nativeOnMobile: false
+      //   });
+      // });
 
 
       // Radial
