@@ -29,7 +29,8 @@
     </footer>
     <!-- / footer -->
 
-	<script src="assets/js/vendor/jquery.min.js"></script>
+	<!-- <script src="assets/js/vendor/jquery.min.js"></script> -->
+	<script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/upgrade.js"></script>
   <script src="assets/js/info.js"></script>
   <script src="assets/js/replace.js"></script>
