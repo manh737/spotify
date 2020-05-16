@@ -61,6 +61,9 @@
                 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="discord.php">
+                    <span>Discord</span>
+                  </a>
+                  <a class="dropdown-item" href="facebook.php">
                     <span>Facebook</span>
                   </a>
                   <div class="dropdown-divider"></div>

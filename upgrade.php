@@ -1,4 +1,4 @@
-<?php 
+<?php
 header('Access-Control-Allow-Origin: *');
 include 'include/header.php';
 ?>
@@ -29,18 +29,18 @@ include 'include/header.php';
     </div>
     <div class="row">
       <div class="col">
-          <div class="form-row">
-            <div class="form-group col-md-5 col-lg-6">
-              <input class="form-control form-control-lg" id="key" placeholder="Your Key">
-            </div>
-            <div class="form-group col-md-3 col-lg-4">
-              <select class="form-control form-control-lg my-selectpicker load-country" id="country" id="type-input">
-              </select>
-            </div>
-            <div class="form-group col-md-4 col-lg-2">
-              <button id="UpgradeButton" class="btn btn-block btn-lg btn-white">Nâng Cấp</button>
-            </div>
+        <div class="form-row">
+          <div class="form-group col-md-5 col-lg-6">
+            <input class="form-control form-control-lg" id="key" placeholder="Your Key">
           </div>
+          <div class="form-group col-md-3 col-lg-4">
+            <select class="form-control form-control-lg my-selectpicker load-country" id="country" id="type-input">
+            </select>
+          </div>
+          <div class="form-group col-md-4 col-lg-2">
+            <button id="UpgradeButton" class="btn btn-block btn-lg btn-white">Nâng Cấp</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
