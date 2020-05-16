@@ -7,7 +7,7 @@
     <title><?=SITENAME?> | <?=ucfirst(pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME))?></title>
     <link rel="stylesheet" href="./assets/css/vendor.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon24x24.png"/>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon100x100.png"/>
     <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" rel="stylesheet" />
   </head>
