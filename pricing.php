@@ -43,7 +43,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=PACKAGE_1_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=PACKAGE_1_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=PACKAGE_1_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
@@ -63,7 +63,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=PACKAGE_2_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=PACKAGE_2_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=PACKAGE_2_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
@@ -83,7 +83,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=PACKAGE_3_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=PACKAGE_3_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=PACKAGE_3_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
@@ -107,7 +107,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=RESELLER_PACKAGE_1_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=RESELLER_PACKAGE_1_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=RESELLER_PACKAGE_1_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
@@ -127,7 +127,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=RESELLER_PACKAGE_2_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=RESELLER_PACKAGE_2_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=RESELLER_PACKAGE_2_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
@@ -147,7 +147,7 @@
                       <li class="list-group-item">Friendly Support</li>
                     </ul></center>
                   </div>
-                  <a data-shoppy-product="<?=RESELLER_PACKAGE_3_SHOPPYID?>"class="card-footer">
+                  <a data-shoppy-product="<?=RESELLER_PACKAGE_3_SHOPPYID?>" target="_blank" href="discord.php" class="card-footer">
                     <strong class="card-price"><?=CURRENCY?><?=RESELLER_PACKAGE_3_PRICE?></strong>/<?=SUB_LENGTH?>
                   </a>
                 </div>
