@@ -4,7 +4,7 @@ define("SITENAME", "MeownBB Upgrade Spotify");
 define("DISCORD", "https://discord.gg/yuf3x2Y");
 define("FACEBOOK", "https://m.me/NetflixPrenium");
 
-define("CURRENCY", "$");
+define("CURRENCY", "₫");
 define("SUB_LENGTH", "Lifetime");
 
 define("PACKAGE_1_NAME", "Cá Nhân");
